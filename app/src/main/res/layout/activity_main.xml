@@ -18,10 +18,10 @@
             android:layout_weight="2"
             android:orientation="horizontal">
 
-            <SurfaceView
+            <com.example.color_assignment.Solar
                 android:id="@+id/surfaceView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1" />
         </LinearLayout>
 
@@ -54,7 +54,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
             <SeekBar
                 android:id="@+id/Blue"
